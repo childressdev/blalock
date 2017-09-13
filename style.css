@@ -138,3 +138,20 @@ h1{
 .signup-form{
   max-width:450px;
 }
+
+.social{
+  margin-top:40px;
+  margin-bottom:60px;
+  max-width:450px;
+}
+.social>a{
+  font-size:40px;
+  color:#fff;
+}
+.social>a+a{
+  margin-left:20px;
+}
+.paid-for{
+  max-width:450px;
+  font-weight:300;
+}
