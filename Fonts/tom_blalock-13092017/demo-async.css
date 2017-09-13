@@ -20,3 +20,14 @@ font-style: normal;
 font-weight: 500;
 font-style: normal;
     }
+    @font-face{
+        font-family:"Proxima Nova W01_n5";
+        src:url("Fonts/dbbb35ad-07f2-4848-a204-f4aa0f13a1ed.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Proxima Nova W01";
+        src:url("Fonts/dbbb35ad-07f2-4848-a204-f4aa0f13a1ed.eot?#iefix");
+        src:url("Fonts/dbbb35ad-07f2-4848-a204-f4aa0f13a1ed.eot?#iefix") format("eot"),url("Fonts/b5a71150-9cc6-412c-a234-f1c2cbcd738f.woff2") format("woff2"),url("Fonts/604b74f3-0c1d-45e1-baf0-f3608ae91fce.woff") format("woff"),url("Fonts/ea67d4db-c657-4fd9-a406-19f659fb0cab.ttf") format("truetype"),url("Fonts/bec29477-8f0e-4b2e-bf59-c76b6c15f5f9.svg#bec29477-8f0e-4b2e-bf59-c76b6c15f5f9") format("svg");
+font-weight: 500;
+font-style: normal;
+    }
