@@ -12,7 +12,9 @@
       <div class="row">
         <div class="col-sm-6 col-sm-push-6">
           <div class="signup-form">
-            <?php echo do_shortcode('[123-contact-form i2977177]'); ?>
+            <?php if(have_posts()): while(have_posts()): the_post(); ?>
+              <?php the_content(); ?>
+            <?php endwhile; endif; ?>
           </div>
           <div class="social">
             <a href="https://www.facebook.com/VoteBlalock/" target="_blank"><i class="fa fa-facebook-official"></i></a>
